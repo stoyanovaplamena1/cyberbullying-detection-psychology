@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+env/
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data (never push raw data)
+data/
+datasets/
+
+# Models & checkpoints
+models/
+checkpoints/
+runs/
+
+# Reports / generated outputs
+reports/figures/
+reports/tables/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
